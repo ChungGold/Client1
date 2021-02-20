@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to xoBeautyBrows located in Los Angeles, CA (San Gabriel Valley). We are certified in permanent makeup and specialize in micro-pigmentation tattoos for eyebrows such as Ombre Powder, Microblading or a Combination of both and also Lip Blush that lasts 1-3 years. Our mission is to enhance women & men’s beauty and power them to feel more confident than they already are.
+
+    We also provide intimate training for those that would like to get started in their permanent makeup journey. 
+    ">
+    <meta name="author" content="XO Beauty Brows, Chung Au">
+    
+    <title>XO Beauty Brows</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Mr+De+Haviland&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+
+<body>
+    
+    <header>
+        <div id = 'logo-container'>
+            <a href="index.html"><img id = 'logo' src="img/Logo.PNG" alt="XO Beauty Brows"></a>
+        </div>
+        <nav>
+            <ul id = 'nav-bar'>
+                <li><a class = 'nav-text' href="index.html">HOME</a></li>
+                <li><a class = 'nav-text' href="services.html">SERVICES</a></li>
+                <li><a class = 'nav-text'>APPOINTMENTS</a></li>
+                <li><a class = 'nav-text' href="faq.html">POLICIES & FAQ</a></li>
+                <li><a class = 'contact nav-text' href="contact.html">CONTACT ME</a></li>
+            </ul>
+            <figure id="hamburger">
+                <button id="hamburger-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav>
+                    <ul id = 'drop-down' class = 'hide'>
+                        <br>
+                        <li><a class = 'nav-text' href="index.html">HOME</a></li>
+                        <br>
+                        <li><a class = 'nav-text' href="services.html">SERVICES</a></li>
+                        <br>
+                        <li><a class = 'nav-text' href="https://visibook.com/xobeautybrows">APPOINTMENTS</a></li>
+                        <br>
+                        <li><a class = 'nav-text' href="faq.html">POLICIES & FAQ</a></li>
+                        <br>
+                        <li><a class = 'nav-text' href="contact.html">CONTACT ME</a></li>
+                        <br>
+                    </ul>
+                </nav>
+            </figure>
+        </nav>
+    </header>
+
+    <figure id = 'alert'>
+        <div id = 'titleX'>
+            <h3>Before booking your appointment</h3>
+            <span id ='formX'>
+                <i class="far fa-times-circle"></i>
+            </span>
+        </div>
+        <br>
+        <p>Please make sure to read up on the <a href="faq.html"><b>Policies & FAQ</b></a> section.</p>
+        <br>
+        <form action="https://visibook.com/xobeautybrows" method="post" enctype="text/plain">
+            <input type="checkbox" id="verify" name="verify" value="read" required>
+                <label for="verify">I have read the <a href="faq.html">policies & FAQ</a> section.</label>
+                <br><br>
+            <div id ='submit-container'>
+                <input type="submit" name="">
+            </div>
+        </form>
+    </figure>
+
+    <main id = 'contact-wrapper'>
+        <div id = 'contacts-box'>
+            <div id = 'contacts-title'>
+                <h1>Get in Touch</h1>
+            </div>
+            <div id = 'socials-form'>
+                <ul>
+                    <li><i class="fas fa-phone"></i>     <b>Phone Number:</b> (626) 838-3677 </li>
+                    <li><i class="far fa-envelope"></i> <b>Email:</b> xoBeautyBrows@gmail.com</li>
+                    <li><a class = 'social-icons' target="_blank" href="https://www.instagram.com/xobeautybrows/"><i class="social-icon fab fa-instagram"></i>    <b>Instagram</b></a></li>
+                    <li><a class = 'social-icons' target="_blank" href="https://www.facebook.com/xoBeautyBrows/"><i class="fab fa-facebook-square"></i>    <b>Facebook</b></a></li>
+                    <li><a class = 'social-icons' target="_blank" href="https://www.yelp.com/biz/xobeautybrows-alhambra"><i class="fab fa-yelp"></i>    <b>Yelp</b></a></li>
+                </ul>
+            </div>
+            <div id = 'email-form'>
+                <form action="mailto:xoBeautyBrows@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="Name" value placeholder="  Name" required maxlength='30'>
+                    <br><br>
+                    <input type="email" name="Email" value placeholder="  Email" required maxlength='50'>
+                    <br><br>
+                    <input type="tel" name="Phone Number" value placeholder="  Phone Number" required maxlength='10'>
+                    <br><br>
+                    <textarea name="Message" rows="10" cols="35" value placeholder="  Message" required maxlength='1000'></textarea>
+                    <br><br>
+                    <input type="submit" name="">
+                </form>
+            </div>
+        </div>
+        <iframe id = 'map' title='2023 S Primrose Ave  Alhambra, CA 91803' 
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBv4d7x6la_XrKCaNz8o98sFE6HLX0hynw
+        &q=2023 S Primrose Ave  Alhambra, CA 91803" allowfullscreen>
+        </iframe>
+    </main>
+    
+    <footer>
+        <div id = 'copyright'>
+            <span id = 'xobrows'></span>
+            <span id = 'socials'>
+                <a class = 'social-icons' target="_blank" href="https://www.instagram.com/xobeautybrows/"><i class="social-icon fab fa-instagram"></i></a>
+                <a class = 'social-icons' target="_blank" href="https://www.facebook.com/xoBeautyBrows/"><i class="fab fa-facebook-square"></i></a>
+                <a class = 'social-icons' target="_blank" href="https://www.yelp.com/biz/xobeautybrows-alhambra"><i class="fab fa-yelp"></i></a>
+            </span>
+            <span id = 'chung'>Created by <a target="_blank" href="https://www.linkedin.com/in/chung-au/">Chung Au</a></span>
+        </div>
+    </footer>
+    
+    <script type="text/javascript" src="hamburger.js"></script>
+</body>
+</html>

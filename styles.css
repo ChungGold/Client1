@@ -1,0 +1,956 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Antic Didone', serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img, video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #F7C4CD;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/************ HEADER************/
+
+/************ LOGO ************/
+
+#logo-container {
+    position: absolute;
+    height: 4.321875rem;
+    width: 15rem;
+    top: 2.5rem;
+    left: calc(50% - 7.5rem);
+}
+
+#logo-container #logo {
+    animation: fadeIn 2s 1 normal linear;
+}
+
+/************ NAVIGATION BAR ************/
+
+
+/************ HAMBURGER ************/
+nav #hamburger {
+    position: absolute;
+    height: 4.321875rem;
+    width: 15rem;
+    top: 9rem;
+    left: calc(50% - 7.5rem);
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav #hamburger #hamburger-button {
+    background-color: transparent;
+    border: 0;
+    color: grey;
+    font-size: 1.25rem;
+    cursor: pointer;
+    animation: fadeIn 1s 1 normal linear;
+}
+
+nav #hamburger #hamburger-button:hover {
+    color: #F7C4CD;
+}
+
+nav #hamburger nav #drop-down {
+    color: grey;
+    list-style-type: none;
+    width: 15rem;
+    text-align: center;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+nav #hamburger nav .hide {
+    display: none;
+}
+
+/************ DEFAULT NAV BAR ************/
+
+nav #nav-bar {
+    position: absolute;
+    top: 9rem;
+    left: calc(50% - 30.8125rem);
+    list-style-type: none;
+}
+
+nav #nav-bar li {
+    display: inline;
+    margin: auto 2.5rem;
+}
+
+.nav-text {
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 0.1875rem;
+    padding-bottom: 1rem;
+    animation: fadeIn 1s 1 normal linear;
+    cursor: pointer;
+}
+
+.nav-text:visited {
+    color: gray;
+}
+
+.nav-text:hover {
+    color: black;
+    border-bottom: .25rem solid #F7C4CD;
+}
+
+.home, .services, .faq, .contact {
+    color: black;
+    border-bottom: .25rem solid #F7C4CD;
+}
+
+.home:visited, .services:visited, .faq:visited, .contact:visited {
+    color: black;
+}
+
+/************ BOOKING FORM ************/
+
+#alert {
+    position: absolute;
+    left: calc(50%);
+    transform: translateX(-50%);
+    top: 5rem;
+
+    z-index: 1;
+
+    height: 10rem;
+    width: 30rem;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+    color: white;
+
+    border-style: solid;
+    border-radius: 5%;
+    border-color: #F7C4CD;
+    box-shadow: 0px 0px 10px 10px #F7C4CD;
+
+    visibility: hidden;
+}
+
+#alert #titleX {
+    display: flex;
+    justify-content: space-between;
+}
+
+#alert #titleX span{
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+}
+
+#alert #titleX span:hover {
+    color: #F7C4CD;
+}
+
+#alert a {
+    color: white;
+}
+
+#alert a:hover {
+    color: #F7C4CD;
+}
+
+#alert form #submit-container {
+    text-align: center;
+}
+
+/************ BODY & SECTIONS ************/
+
+main {
+    position: absolute;
+    width: 56.625rem;
+    top: 12.75rem;
+    animation: fadeIn 1s 1 normal linear;
+    margin-bottom: 14vh;
+}
+
+/************ HOME ************/
+
+/************ CAROUSEL SECTION ************/
+
+#home-page {
+    overflow: hidden;
+
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+#carousel-container {
+    overflow: hidden;
+    border-radius: 5%;
+
+    width: 28.3125rem;
+}
+
+#carousel-container #carousel-deck {
+    display: grid;
+    grid-template-columns: 55.875rem 55.875rem 55.875rem 55.875rem 55.875rem 55.875rem;
+    grid-template-rows: auto;
+}
+
+#carousel-container #carousel-deck .slides {
+    width: 55.875rem;
+}
+
+.picture-box {
+    position: relative;
+    width: 13.96875rem;
+    height: 12.5rem;
+    float: right;
+    border-style: solid;
+    border-color: white;
+    filter: grayscale(95%);
+} 
+
+.picture-box:hover {
+    filter: grayscale(0%);
+    opacity: 1;    
+    cursor: pointer;
+}
+
+.moused {
+    animation: 500ms 1 linear ease-in-out;
+    animation-name: fade;
+}
+
+@keyframes fade{
+    0% {
+        filter: grayscale(0%);
+    }
+    100% {
+        filter: grayscale(100%);
+    }
+}
+
+/************ CAROUSEL CONTROL ************/
+
+#button-container {
+    position: absolute;
+    height: 50px;
+    width: calc(28.3125rem + 100px);
+    left: calc(50% - (28.3125rem + 50px));
+
+    top: calc(31.5rem - 25px);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#button-container button {
+    height: 50px;
+    width: 50px;
+
+    border: none;
+    outline: none;
+    background: none;
+    color: gray;
+    font-size: 1.25rem;
+
+    cursor: pointer;
+}
+
+#button-container button:hover {
+    color: #F7C4CD;
+}
+
+#button-container button:active {
+    transform: scale(1.5);
+}
+
+/************ HOME FEATURE ************/
+
+#bookNow {
+    width: 28.3125rem;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#voyageLA, #booking-button {
+    width: 28.3125rem;
+    height: 18.75rem;
+    
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#voyageLA {
+    height: 25rem;
+    justify-content: space-between;
+}
+
+#booking-button {
+    height: 12.5rem;
+    justify-content: flex-end;
+}
+
+#voyageLA #bigText {
+    color: black;
+    font-size: 2.5rem;
+
+    border-bottom: .25rem solid #F7C4CD;
+}
+
+#voyageLA #feature {
+    width: 28.3125rem;
+}
+
+#voyageLA #feature img {
+    width: 14rem;
+    height: 14rem;
+    object-fit: contain;
+    
+    position: relative;
+    left: calc(50% - 7rem);
+}
+
+#voyageLA #feature img:hover {
+    box-shadow: 0px 0px 10px 10px #F7C4CD;
+    border-radius: 50%;
+}
+
+#button-box {
+    position: absolute;
+    width: 15rem;
+    height: 5rem;
+    border-radius: 5%;
+
+    background-color: black;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+#button-box h1{
+    width: 15rem;
+    height: 5rem;
+    color: white;
+    letter-spacing: 0.1875rem;
+
+    text-align: center;
+    line-height: 5rem;
+}
+
+#button-box h1:hover {
+    color: #F7C4CD;
+}
+
+#button-box:hover {
+    color: #F7C4CD;
+    box-shadow: 0px 0px 10px 10px #F7C4CD;
+}
+
+
+
+
+/************ SERVICES & CARDS SECTION ************/
+
+#services-container {
+    width: 56.625rem;
+}
+
+#services-container #cards-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#services-container #cards-container .cards {
+    position: relative;
+    width: 28.3125rem;
+    height: 24.75rem; 
+    border-radius: 5%;
+}
+
+#services-container #cards-container #training-card {
+    width: 56.625rem;
+    margin-bottom: 10vh;
+    height: 42.5rem; 
+}
+
+#services-container #cards-container .cards img {
+    opacity: 10%;
+    border-radius: 5%;
+}
+
+#services-container #cards-container .cards img:hover {
+    opacity: 30%;
+    border-radius: 5%;
+}
+
+#services-container #cards-container .cards .card-text{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#services-container #cards-container .cards .card-text p {
+    font-weight: bolder;
+}
+
+#services-container #cards-container .cards .card-text h3{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#services-container #cards-container .cards p{
+    text-align: left;
+    margin: 1rem 2rem auto;
+    font-weight: 550;
+}
+
+/************ POLICIES & FAQ SECTION ************/
+
+#faq #faq-title-wrap {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#faq #faq-title-wrap #faq-titles {
+    width: 56.625rem;
+    height: 3.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#faq #faq-title-wrap #faq-titles .title {
+    color: grey;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#faq #faq-title-wrap #qualifications {
+    color: pink;
+}
+
+#faq #faq-title-wrap #faq-titles h3:hover {
+    color: pink;
+}
+
+#faq #faq-info-wrap {
+    position: absolute;
+    width: 56.625rem;
+    height: 34rem;
+    font-size: 1.125rem;
+    padding-top: 4.5rem;
+    font-weight: 550;
+}
+
+#faq #faq-info-wrap .faq-info{
+    position: absolute;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/************ CONTACTS SECTION ************/
+
+#contacts-box {
+    position: absolute;
+    height: 37.5rem; 
+    width: 27.9375rem;
+}
+
+#contacts-box #contacts-title {
+    position: absolute;
+    letter-spacing: 0.1875rem;
+    left: calc(50% - 9.375rem);
+    color: pink;
+}
+
+#contacts-box #socials-form {
+    position: absolute;
+    top: 3rem;
+    line-height: 1.5rem;
+    width: 18.75rem;
+}
+
+#contacts-box #socials-form ul {
+    list-style-type: none;
+}
+
+#contacts-box #email-form {
+    position: absolute;
+    top: 11rem;
+
+}
+
+#contacts-box #email-form input {
+    height: 2.5rem;
+    width: 18.75rem;
+}
+
+#map {
+    position: absolute;
+    height: 37.5rem; 
+    width: 27.9375rem;
+    left: 50%;
+}
+
+
+/************ FOOTER ************/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 7vh;
+    width: 100%;
+    background-color: pink;
+}
+/************ SOCIAL MEDIA & COPYRIGHT ************/
+
+#copyright {
+    position: absolute;
+    width: 58.875rem;
+    left: calc(50% - 29.4375rem);
+    bottom: .5rem;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#copyright #socials {
+    position: absolute;
+    bottom: 0;
+    letter-spacing: 5.5875rem;
+    left: calc(50% - 7.5rem);
+    font-size: 1.5rem;
+}
+
+#copyright #socials .social-icons {
+    color: black;
+}
+
+#copyright #socials .social-icons:hover {
+    color: white;
+}
+
+#copyright {
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+#copyright #chung {
+    float: right;
+}
+
+#copyright #chung a:hover {
+    color: white;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1024px) {
+    nav #nav-bar  {
+        display: none;
+    }
+
+    nav #hamburger {
+        display: flex;
+    }
+}
+
+/************ BOOKING FORM MEDIA QUERIES ************/
+
+@media (max-width: 539px) {
+#alert {
+    z-index: 1;
+    height: 15rem;
+    width: 20rem;
+}
+}
+
+/************* HOME MEDIA QUERIES *************/
+@media (min-width: 720px) and (max-width: 1024px) {
+    #home-page {
+        width: 45.3rem;
+        padding: 0 5rem 0 5rem;
+    }
+    
+    #carousel-container {
+        width: 14.15625rem;
+    }
+
+    #button-container {
+        width: calc(14.15625rem + 100px);
+        left: calc(50% - (14.15625rem + 105px));
+    }
+
+    #bookNow {
+        width: 21.05625rem;
+    }
+    
+    #voyageLA, #booking-button {
+        width: 14.15625rem;
+    }
+    
+    #voyageLA #bigText {
+        font-size: 2rem;
+    }
+    
+    #voyageLA #feature {
+        width: 14.15625rem;
+    }
+
+    footer {
+        height: 7.5vh;
+    }
+
+    #copyright {
+        height: 7.5vh;
+        width: 58.875rem;
+        left: calc(50% - 29.4375rem);
+        bottom: .8rem;
+    }
+
+    #copyright #socials {
+        position: absolute;
+        top: 1rem;
+    }
+
+    #xobrows{
+        position: absolute;
+        bottom: -0.5rem;
+        left: 13.75rem;
+    }
+
+    #chung {
+        position: absolute;
+        bottom: -0.5rem;
+        right: 13.75rem;
+    }
+}
+
+@media (max-width: 719px) {
+    #home-page {
+        width: 14.15625rem;
+    }
+    
+    #carousel-container {
+        width: 14.15625rem;
+    }
+
+    #button-container {
+        width: calc(14.15625rem + 100px);
+        left: calc(50% - (14.15625rem - 60px));
+    }
+
+    #bookNow {
+        width: 14.15625rem
+    }
+    
+    #voyageLA, #booking-button {
+        width: 14.15625rem;
+        justify-content: center;
+    }
+    
+    #voyageLA #bigText {
+        font-size: 2rem;
+    }
+    
+    #voyageLA #feature {
+        width: 14.15625rem;
+    }
+}
+
+/************* SERVICES MEDIA QUERIES *************/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #services-container {
+        width: 45.75rem;
+    }
+
+    #services-container #cards-container .cards {
+        width: 22.875rem;
+        height: 45rem; 
+    }
+
+    #services-container #cards-container #training-card {
+        width: 56.625rem;
+        margin-bottom: 10vh;
+        height: 60.5rem; 
+    }
+
+    #services-container #cards-container .cards p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    #services-container {
+        width: 21.5rem;
+    }
+
+    #services-container #cards-container .cards {
+        width: 21.5rem;
+        height: 45rem; 
+    }
+
+    #services-container #cards-container #training-card {
+        width: 56.625rem;
+        margin-bottom: 10vh;
+        height: 90.5rem; 
+    }
+
+    #services-container #cards-container .cards p{
+        font-size: 1.5rem;
+    }
+}
+
+/************* FAQ MEDIA QUERIES *************/
+
+@media (min-width: 720px) and (max-width: 1024px) {
+    #faq {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #faq #faq-title-wrap #faq-titles {
+        width: 33.75rem;
+        height: 3.5rem;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #faq #faq-info-wrap .faq-info{
+        position: absolute;
+        font-size: 1.25rem;
+        width: 33.75rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 719px)  {
+    #faq {
+        display: flex;
+        justify-content: center;
+    }
+
+    #faq #faq-title-wrap #faq-titles {
+        width: 28rem;
+        height: 20rem;
+        font-size: 2rem;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #faq #faq-info-wrap .faq-info{
+        position: absolute;
+        font-size: 1.75rem;
+        width: 28rem;
+
+        top: 23rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 539px) {
+    #faq {
+        display: flex;
+        justify-content: center;
+    }
+
+    #faq #faq-title-wrap #faq-titles {
+        width: 18rem;
+        height: 20rem;
+        font-size: 2rem;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #faq #faq-info-wrap .faq-info{
+        position: absolute;
+        font-size: 1.75rem;
+        width: 18rem;
+
+        top: 23rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 300px) {
+    #faq {
+        display: flex;
+        justify-content: center;
+    }
+
+    #faq #faq-title-wrap #faq-titles {
+        width: 13rem;
+        height: 20rem;
+        font-size: 2rem;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #faq #faq-info-wrap .faq-info{
+        position: absolute;
+        font-size: 1.75rem;
+        width: 13rem;
+
+        top: 23rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+/************* CONTACT ME MEDIA QUERIES *************/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #contacts-box {
+        position: absolute;
+        height: 37.5rem; 
+        width: 27.9375rem;
+        left: 3.59375rem;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #map {
+        position: absolute;
+        height: 37.5rem; 
+        width: 18.75rem;
+        left: 30rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #contact-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contacts-box {
+        position: absolute;
+        height: 37.5rem; 
+        width: 27.9375rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contacts-box #contacts-title {
+        left: 7.03125rem;
+    }
+
+    #contacts-box #socials-form ul {
+        list-style-type: none;
+    }
+
+    #contacts-box #email-form {
+        position: absolute;
+        top: 11rem;
+    }
+
+    #contacts-box #email-form input {
+        height: 2.5rem;
+        width: 18.75rem;
+    }
+
+    #map {
+        position: absolute;
+        height: 37.5rem; 
+        width: 18.75rem;
+        top: 39.5rem;
+        left: 18.75rem;
+    }
+}
+
+

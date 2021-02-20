@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to xoBeautyBrows located in Los Angeles, CA (San Gabriel Valley). We are certified in permanent makeup and specialize in micro-pigmentation tattoos for eyebrows such as Ombre Powder, Microblading or a Combination of both and also Lip Blush that lasts 1-3 years. Our mission is to enhance women & men’s beauty and power them to feel more confident than they already are.
+
+    We also provide intimate training for those that would like to get started in their permanent makeup journey. 
+    ">
+    <meta name="author" content="XO Beauty Brows, Chung Au">
+    
+    <title>XO Beauty Brows</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Mr+De+Haviland&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+    
+    <header>
+        <div id = 'logo-container'>
+            <a href="index.html"><img id = 'logo' src="img/Logo.PNG" alt="XO Beauty Brows"></a>
+        </div>
+        <nav>
+            <ul id = 'nav-bar'>
+                <li><a class = 'nav-text' href="index.html">HOME</a></li>
+                <li><a class = 'services nav-text' href="services.html">SERVICES</a></li>
+                <li><a class = 'nav-text'>APPOINTMENTS</a></li>
+                <li><a class = 'nav-text' href="faq.html">POLICIES & FAQ</a></li>
+                <li><a class = 'nav-text' href="contact.html">CONTACT ME</a></li>
+            </ul>
+            <figure id="hamburger">
+                <button id="hamburger-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav>
+                    <ul id = 'drop-down' class = 'hide'>
+                        <br>
+                        <li><a class = 'nav-text' href="index.html">HOME</a></li>
+                        <br>
+                        <li><a class = 'nav-text' href="services.html">SERVICES</a></li>
+                        <br>
+                        <li><a class = 'nav-text' href="https://visibook.com/xobeautybrows">APPOINTMENTS</a></li>
+                        <br>
+                        <li><a class = 'nav-text' href="faq.html">POLICIES & FAQ</a></li>
+                        <br>
+                        <li><a class = 'nav-text' href="contact.html">CONTACT ME</a></li>
+                        <br>
+                    </ul>
+                </nav>
+            </figure>
+        </nav>
+    </header>
+
+    <figure id = 'alert'>
+        <div id = 'titleX'>
+            <h3>Before booking your appointment</h3>
+            <span id ='formX'>
+                <i class="far fa-times-circle"></i>
+            </span>
+        </div>
+        <br>
+        <p>Please make sure to read up on the <a href="faq.html"><b>Policies & FAQ</b></a> section.</p>
+        <br>
+        <form action="https://visibook.com/xobeautybrows" method="post" enctype="text/plain">
+            <input type="checkbox" id="verify" name="verify" value="read" required>
+                <label for="verify">I have read the <a href="faq.html">policies & FAQ</a> section.</label>
+                <br><br>
+            <div id ='submit-container'>
+                <input type="submit" name="">
+            </div>
+        </form>
+    </figure>
+
+    <main id = 'services-container'>
+        <figure id = 'cards-container'>
+            <div class = 'cards'>
+                <img src="img/service img/ombre.jpg" alt="">
+                <div class = 'card-text'>
+                    <h1 class = 'card-titles'>Ombre Powder</h1>
+                    <p>Gradient Powder Effect. Starts light in the front and gradually gets darker towards the fail.</p>
+                    <p>Great for those with no eyebrows, sparse eyebrows, or full eyebrows.</p>
+                    <p>Can opt for natural finish or makeup finish.</p>
+                    <p>Suitable for all skin types (Oily, Combination, Normal, Dry).</p>
+                    <p>Lasts 1-3 years.</p>
+                    <h3>$450</h3>
+                </div>
+            </div>
+            <div class = 'cards'>
+                <img src="img/service img/microblade.jpg" alt="">
+                <div class = 'card-text'>
+                    <h1 class = 'card-titles'>Microblading</h1>
+                    <p>Hairstrokes to replicate real hair. Very natural look.</p>
+                    <p>Great for those with a good amount of hair.</p>
+                    <p>Suitable for only normal to dry skin.</p>
+                    <p>Lasts 1-2 years.</p>
+                    <h3>$450</h3>
+                </div>
+            </div>
+            <div class = 'cards'>
+                <img src="img/service img/combination.jpg" alt="">
+                <div class = 'card-text'>
+                    <h1 class = 'card-titles'>Combination</h1>
+                    <p>Ombre Powder with Microblading strokes in the front.</p>
+                    <p>Great for those with no eyebrows, sparse eyebrows, or full eyebrows.</p>
+                    <p>Can opt for natural finish or makeup finish.</p>
+                    <p>Suitable for all skin types (Oily, Combination, Normal, Dry).</p>
+                    <p>Lasts 1-3 years.</p>
+                    <h3>$500</h3>
+                </div>
+            </div>
+            <div class = 'cards'>
+                <img src="img/service img/saline.JPG" alt="">
+                <div class = 'card-text'>
+                    <h1 class = 'card-titles'>Saline Tattoo Removal</h1>
+                    <p>For those that want to remove or lighten a previous existing tattoo.</p>  
+                    <p>Using a solution to push the colored ink to the surface.</p>
+                    <p>*Please send us a clear picture of your tattoo for consideration*</p>
+                    <p>Desired Results require a minimum of 2-3 sessions.</p>
+                    <p>In some cases more than 3 sessions will be required. Each session is done 60 days apart. You can either do $100 per session or purchase a package for a discount (recommended)</p>
+                    <h3>$150/session</h3>
+                </div>
+            </div>
+            <div class = 'cards'>
+                <img src="img/service img/correct.JPG" alt="">
+                <div class = 'card-text'>
+                    <h1 class = 'card-titles'>Correction</h1>
+                    <p>Clients with previous tattoo on their eyebrows that want to revamp the shape and color.</p>
+                    <p>Previous tattoo must be at least 80% faded.</p>
+                    <p>*Send a clear picture of your eyebrows without any makeup on them before booking*</p>
+                    <h3>$525</h3>
+                </div>
+            </div>
+            <div class = 'cards'>
+                <img src="img/service img/touchup.JPG" alt="">
+                <div class = 'card-text'>
+                    <h1 class = 'card-titles'>Touch Ups</h1>
+                    <p>Touch ups are only for my existing clients.</p>
+                    <p>Send me an email/text/dm to book this option.</p>
+                    <h3>Varies</h3>
+                </div>
+            </div>
+            <div class = 'cards' id ='training-card'>
+                <img src="img/service img/teach.png" alt="">
+                <div class = 'card-text'>
+                    <h1 class = 'card-titles'>Training</h1>
+                    <p>Two types of training available.</p>
+                    <p>Learn <u><b>ONE</b></u> technique (Ombre or Microblading) or <u><b>BOTH</b></u> techniques (Ombre & Microblading)</p>
+                    <p>No experience necessary</p>
+                    <p>Our course comes with:</p>
+                    <p>An in-depth manual & introduction to permanent mankeup.</p>
+                    <p>Brow mapping with correct method & tools</p>
+                    <p>Business 101: How to get your business started & how to market it</p>
+                    <p>List of suppliers</p>
+                    <p>Proper Sanitation & Safety</p>
+                    <p>Color theory & correction</p>
+                    <p>A chance to work on a live model with our close supervision (provided)</p>
+                    <p>One-day shadowing opportunity after the course</p>
+                    <p>A certificate of completion</p>
+                    <p>Fully loaded kit, including a wireless machine & supplies for practicing and your first +10 clients</p>
+                    <p>Support to assure you become a successful artist</p>
+                    <p>*Please contact us for more information*</p>
+                    <h3><a href="contact.html">CONTACT ME</a></h3>
+                </div>
+            </div>
+        </figure>
+    </main>
+
+    <footer>
+        <div id = 'copyright'>
+            <span id = 'socials'>
+                <a class = 'social-icons' target="_blank" href="https://www.instagram.com/xobeautybrows/"><i class="social-icon fab fa-instagram"></i></a>
+                <a class = 'social-icons' target="_blank" href="https://www.facebook.com/xoBeautyBrows/"><i class="fab fa-facebook-square"></i></a>
+                <a class = 'social-icons' target="_blank" href="https://www.yelp.com/biz/xobeautybrows-alhambra"><i class="fab fa-yelp"></i></a>
+            </span>
+            <span id = 'xobrows'></span>
+            <span id = 'chung'>Created by <a target="_blank" href="https://www.linkedin.com/in/chung-au/">Chung Au</a></span>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="hamburger.js"></script>
+</body>
+</html>
