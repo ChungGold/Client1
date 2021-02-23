@@ -847,6 +847,7 @@ footer {
     #faq {
         display: flex;
         justify-content: center;
+        width: 18.75rem;
     }
 
     #faq #faq-title-wrap #faq-titles {
@@ -940,7 +941,7 @@ footer {
     #contacts-box {
         position: absolute;
         height: 37.5rem; 
-        width: 27.9375rem;
+        width: 18.75rem;
 
         display: flex;
         flex-direction: column;
