@@ -1002,6 +1002,7 @@ footer {
         align-items: center;
         height: 75rem;
         width: 18.75rem;
+        padding-bottom: 10rem;
     }
 
     #contacts-box {
