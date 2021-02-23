@@ -646,12 +646,6 @@ footer {
     #voyageLA {
         margin-top: -20rem;
     }
-
-    #voyageLA #feature img {
-        width: 12rem;
-        height: 12rem
-        left: calc(50% - 6rem);
-    }
 }
 
 /************* HOME MEDIA QUERIES *************/
@@ -825,6 +819,7 @@ footer {
     #faq {
         display: flex;
         justify-content: center;
+        margin-bottom: 10rem;
     }
     
     #faq #faq-title-wrap #faq-titles {
@@ -853,6 +848,7 @@ footer {
     #faq {
         display: flex;
         justify-content: center;
+        margin-bottom: 10rem;
     }
 
     #faq #faq-title-wrap #faq-titles {
@@ -886,6 +882,7 @@ footer {
         display: flex;
         justify-content: center;
         width: 18.75rem;
+        margin-bottom: 10rem;
     }
 
     #faq #faq-title-wrap #faq-titles {
@@ -918,6 +915,7 @@ footer {
     #faq {
         display: flex;
         justify-content: center;
+        margin-bottom: 10rem;
     }
 
     #faq #faq-title-wrap #faq-titles {
@@ -987,7 +985,8 @@ footer {
     }
 
     #contacts-box #contacts-title {
-        left: 7.03125rem;
+        width: 18.75rem;
+        text-align: center;
     }
 
     #contacts-box #socials-form ul {
@@ -1010,6 +1009,7 @@ footer {
         width: 18.75rem;
         top: 39.5rem;
         left: 18.75rem;
+        margin-bottom: 10rem;
     }
 }
 
