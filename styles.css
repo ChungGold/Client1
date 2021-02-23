@@ -895,10 +895,6 @@ footer {
         margin-bottom: 10rem;
     }
 
-    #faq #faq-info-wrap {
-        margin-bottom: 5rem;
-    }
-
     #faq #faq-title-wrap #faq-titles {
         width: 18rem;
         height: 20rem;
@@ -922,6 +918,8 @@ footer {
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+
+        padding-bottom: 5rem;
     }
 
     #faq #faq-info-wrap .booking{
