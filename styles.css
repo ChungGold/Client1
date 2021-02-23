@@ -646,6 +646,14 @@ footer {
     #voyageLA {
         margin-top: -20rem;
     }
+
+    body {
+        max-width: 540px;
+    }
+    
+    #faq, #contact-wrapper {
+        width: 18.75rem;
+    }
 }
 
 /************* HOME MEDIA QUERIES *************/
@@ -742,10 +750,6 @@ footer {
 
     footer {
         height: 7vh;
-    }
-
-    body, #faq, #contact-wrapper {
-        width: 23rem;
     }
 }
 
