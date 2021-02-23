@@ -347,12 +347,12 @@ main {
 }
 
 #voyageLA #feature img {
-    width: 14rem;
-    height: 14rem;
+    width: 12rem;
+    height: 12rem;
     object-fit: contain;
     
     position: relative;
-    left: calc(50% - 7rem);
+    left: calc(50% - 6rem);
 }
 
 #voyageLA #feature img:hover {
@@ -646,6 +646,12 @@ footer {
     #voyageLA {
         margin-top: -20rem;
     }
+
+    #voyageLA #feature img {
+        width: 12rem;
+        height: 12rem
+        left: calc(50% - 6rem);
+    }
 }
 
 /************* HOME MEDIA QUERIES *************/
@@ -696,7 +702,7 @@ footer {
         top: 1rem;
     }
 
-    #xobrows{
+    /* #xobrows{
         position: absolute;
         bottom: -0.5rem;
         left: 13.75rem;
@@ -706,7 +712,7 @@ footer {
         position: absolute;
         bottom: -0.5rem;
         right: 13.75rem;
-    }
+    } */
 }
 
 @media (max-width: 719px) {
