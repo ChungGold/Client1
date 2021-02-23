@@ -417,6 +417,11 @@ main {
     border-radius: 5%;
 }
 
+#services-container #cards-container .cards .card-titles{
+    color: #F7C4CD;
+    border-bottom: .0625rem solid black
+}
+
 #services-container #cards-container #training-card {
     width: 56.625rem;
     margin-bottom: 10vh;
