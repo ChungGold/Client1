@@ -593,13 +593,13 @@ footer {
     font-weight: bold;
 }
 
-#copyright #chung {
+/* #copyright #chung {
     float: right;
 }
 
 #copyright #chung a:hover {
     color: white;
-}
+} */
 
 /* MEDIA QUERIES */
 
@@ -656,7 +656,7 @@ footer {
     }
 
     footer {
-        height: 7.5vh;
+        height: 5vh;
     }
 
     #copyright {
@@ -713,6 +713,10 @@ footer {
     
     #voyageLA #feature {
         width: 14.15625rem;
+    }
+
+    footer {
+        height: 7vh;
     }
 }
 
