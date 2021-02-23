@@ -616,11 +616,19 @@ footer {
 /************ BOOKING FORM MEDIA QUERIES ************/
 
 @media (max-width: 539px) {
-#alert {
-    z-index: 1;
-    height: 15rem;
-    width: 20rem;
-}
+    #alert {
+        z-index: 1;
+        height: 15rem;
+        width: 20rem;
+    }
+
+    #formX {
+        top: 1rem;
+    }
+
+    #alert p {
+        width: 18rem;
+    }
 }
 
 /************* HOME MEDIA QUERIES *************/
