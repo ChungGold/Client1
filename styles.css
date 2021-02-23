@@ -651,7 +651,7 @@ footer {
         max-width: 540px;
     }
     
-    #faq, #contact-wrapper {
+    #faq {
         width: 18.75rem;
     }
 }
@@ -974,7 +974,7 @@ footer {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 540px) {
 
     #contact-wrapper {
         display: flex;
