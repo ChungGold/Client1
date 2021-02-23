@@ -44,14 +44,17 @@ const bookingForm = document.getElementById('alert');
 
 bookingNav.addEventListener('click', () => {
     bookingForm.style.visibility = 'visible';
+    setTimeout(autoCloseAlert, 4000);
 })
 
 bookingNavBurger.addEventListener('click', () => {
     bookingForm.style.visibility = 'visible';
+    setTimeout(autoCloseAlert, 4000);
 })
 
 bookingButton.addEventListener('click', () => {
     bookingForm.style.visibility = 'visible';
+    setTimeout(autoCloseAlert, 4000);
 })
 
 // Close alert
@@ -61,6 +64,10 @@ const formX = document.getElementById('formX');
 formX.addEventListener('click', () => {
     bookingForm.style.visibility = 'hidden';
 })
+
+function autoCloseAlert() {
+    bookingForm.style.visibility = 'hidden';
+}
 
 
 
