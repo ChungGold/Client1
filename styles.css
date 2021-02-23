@@ -1000,7 +1000,8 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 10rem;
+        height: 75rem;
+        width: 18.75rem;
     }
 
     #contacts-box {
@@ -1037,7 +1038,7 @@ footer {
         height: 37.5rem; 
         width: 18.75rem;
         top: 39.5rem;
-        left: 18.75rem;
+        left: 0;
     }
 }
 
