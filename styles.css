@@ -743,6 +743,10 @@ footer {
     footer {
         height: 7vh;
     }
+
+    body, #faq, #contact-wrapper {
+        width: 23rem;
+    }
 }
 
 /************* SERVICES MEDIA QUERIES *************/
