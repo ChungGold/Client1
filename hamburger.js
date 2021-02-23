@@ -26,11 +26,11 @@ function autoClose() {
 
 //copyright
 
-const copyright = document.getElementById('xobrows');
+// const copyright = document.getElementById('xobrows');
 
-let year = new Date().getFullYear();
+// let year = new Date().getFullYear();
 
-copyright.innerHTML = `© XO Beauty Brows ${year} - All Rights Reserved`;
+// copyright.innerHTML = `© XO Beauty Brows ${year} - All Rights Reserved`;
 
 // Appointments alert
 

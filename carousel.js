@@ -8,13 +8,13 @@ const nxtBtn = document.querySelector('#nxtBtn');
 //position start
 let pos = 677;
 const size = document.querySelectorAll('.slides')[0].clientWidth;
-const sizeAdjust = (size/2);
+const sizeAdjust = (size/3);
 
 //button listeners
 
 nxtBtn.addEventListener('click',()=> {
     setInterval(forward, 1);
-    let counter = 0
+    let counter = 0;
 
     function forward () {
         if (counter < sizeAdjust) {
