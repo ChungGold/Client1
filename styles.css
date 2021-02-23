@@ -418,8 +418,8 @@ main {
 }
 
 #services-container #cards-container .cards .card-titles{
-    color: #F7C4CD;
-    border-bottom: .0625rem solid black
+    color: black;
+    border-bottom: .0625rem solid #F7C4CD;
 }
 
 #services-container #cards-container #training-card {
@@ -652,9 +652,6 @@ footer {
         margin-top: -20rem;
     }
 
-    body {
-        max-width: 540px;
-    }
     
     #faq {
         width: 18.75rem;
@@ -898,6 +895,10 @@ footer {
         margin-bottom: 10rem;
     }
 
+    #faq #faq-info-wrap {
+        margin-bottom: 5rem;
+    }
+
     #faq #faq-title-wrap #faq-titles {
         width: 18rem;
         height: 20rem;
@@ -921,6 +922,22 @@ footer {
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    #faq #faq-info-wrap .booking{
+        left: -2.25rem;
+    }
+
+    #faq #faq-info-wrap .booking #send {
+        margin-left: -2rem;
+    }
+
+    #faq #faq-info-wrap .booking #venmo {
+        margin-left: -2rem;
+    }
+
+    #faq #faq-info-wrap .booking #zelle {
+        margin-left: 2rem;
     }
 }
 
@@ -993,7 +1010,7 @@ footer {
         width: 18.75rem;
 
         display: flex;
-        flex-direction: column;
+        flex-flow: column wrap;
         align-items: center;
     }
 
