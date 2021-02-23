@@ -629,6 +629,10 @@ footer {
     #alert p {
         width: 18rem;
     }
+
+    #email-form form textarea {
+        width: 18.75rem;
+    }
 }
 
 /************* HOME MEDIA QUERIES *************/
