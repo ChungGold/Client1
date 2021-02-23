@@ -615,10 +615,14 @@ footer {
 
 /************ BOOKING FORM MEDIA QUERIES ************/
 
-@media (max-width: 539px) {
-    body {
-        height: 110vh;
-        max-width: 100vw;
+@media (max-width: 540px) {
+    #carousel-container {
+        height: 50rem;
+        display: flex;
+    }
+
+    #carousel-deck {
+        margin-top: 4.84rem;
     }
 
     #alert {
@@ -637,6 +641,10 @@ footer {
 
     #email-form form textarea {
         width: 18.75rem;
+    }
+
+    #voyageLA {
+        margin-top: -20rem;
     }
 }
 
