@@ -36,11 +36,17 @@ copyright.innerHTML = `© XO Beauty Brows ${year} - All Rights Reserved`;
 
 const bookingNav = document.getElementsByClassName('nav-text')[2];
 
+const bookingNavBurger  = document.getElementsByClassName('nav-text')[7];
+
 const bookingButton = document.getElementById('button-box');
 
 const bookingForm = document.getElementById('alert');
 
 bookingNav.addEventListener('click', () => {
+    bookingForm.style.visibility = 'visible';
+})
+
+bookingNavBurger.addEventListener('click', () => {
     bookingForm.style.visibility = 'visible';
 })
 
