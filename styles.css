@@ -826,6 +826,10 @@ footer {
 /************* FAQ MEDIA QUERIES *************/
 
 @media (min-width: 720px) and (max-width: 1024px) {
+    body {
+        max-width: 100vw;
+    }
+    
     #faq {
         display: flex;
         justify-content: center;
@@ -855,6 +859,10 @@ footer {
 }
 
 @media (min-width: 540px) and (max-width: 719px)  {
+    body {
+        max-width: 100vw;
+    }
+
     #faq {
         display: flex;
         justify-content: center;
@@ -888,6 +896,10 @@ footer {
 }
 
 @media (min-width: 301px) and (max-width: 539px) {
+    body {
+        max-width: 100vw;
+    }
+
     #faq {
         display: flex;
         justify-content: center;
