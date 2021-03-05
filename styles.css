@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -467,6 +469,8 @@ main {
 
     display: flex;
     flex-direction: column;
+
+    font-family: 'Montserrat', sans-serif;
 }
 
 #faq #faq-title-wrap #faq-titles {
@@ -826,10 +830,6 @@ footer {
 /************* FAQ MEDIA QUERIES *************/
 
 @media (min-width: 720px) and (max-width: 1024px) {
-    body {
-        max-width: 100vw;
-    }
-    
     #faq {
         display: flex;
         justify-content: center;
@@ -859,10 +859,6 @@ footer {
 }
 
 @media (min-width: 540px) and (max-width: 719px)  {
-    body {
-        max-width: 100vw;
-    }
-
     #faq {
         display: flex;
         justify-content: center;
@@ -896,10 +892,6 @@ footer {
 }
 
 @media (min-width: 301px) and (max-width: 539px) {
-    body {
-        max-width: 100vw;
-    }
-
     #faq {
         display: flex;
         justify-content: center;
