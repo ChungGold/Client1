@@ -11,7 +11,7 @@ html {
 
 body {
     min-height: 100vh;
-    max-width: 100vw;
+    max-width: 100vw i !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -466,6 +466,7 @@ main {
     bottom: 1rem;
     left: 50%;
     transform: translateX(-50%);
+    color: #F7C4CD;
 }
 
 #services-container #cards-container .cards p{
