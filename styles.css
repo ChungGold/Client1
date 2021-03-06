@@ -414,9 +414,22 @@ main {
 #services-container #cards-container .cards {
     position: relative;
     width: 28.3125rem;
-    height: 24.75rem; 
+    height: 26.75rem; 
     border-radius: 5%;
 }
+
+#services-container #cards-container #ombre, #services-container #cards-container #microblading {
+    height: 22.75rem; 
+}
+
+#services-container #cards-container #combo, #services-container #cards-container #saline {
+    height: 27.75rem; 
+}
+
+#services-container #cards-container #correction, #services-container #cards-container #touchup {
+    height: 17.75rem; 
+}
+
 
 #services-container #cards-container .cards .card-titles{
     color: black;
