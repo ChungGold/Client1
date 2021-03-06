@@ -459,6 +459,7 @@ main {
 
 #services-container #cards-container .cards .card-text p {
     font-weight: bolder;
+    color: gray;
 }
 
 #services-container #cards-container .cards .card-text h3{
@@ -466,8 +467,12 @@ main {
     bottom: 1rem;
     left: 50%;
     transform: translateX(-50%);
+}
+
+#services-container #cards-container .cards .card-text #contact-link {
     color: #F7C4CD;
 }
+
 
 #services-container #cards-container .cards p{
     text-align: left;
