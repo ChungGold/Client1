@@ -499,7 +499,7 @@ main {
 }
 
 #faq #faq-title-wrap #faq-titles .title {
-    color: grey;
+    color: black;
     cursor: pointer;
     z-index: 1;
 }
@@ -519,6 +519,7 @@ main {
     font-size: 1.125rem;
     padding-top: 4.5rem;
     font-weight: 550;
+    color: gray;
 }
 
 #faq #faq-info-wrap .faq-info{
