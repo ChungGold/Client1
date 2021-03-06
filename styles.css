@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Antic Didone', serif;
 }
 
 html {
@@ -19,6 +16,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
 }
 
 img, video {
@@ -128,6 +126,7 @@ nav #nav-bar li {
     padding-bottom: 1rem;
     animation: fadeIn 1s 1 normal linear;
     cursor: pointer;
+    font-family: 'Antic Didone', serif;
 }
 
 .nav-text:visited {
@@ -469,8 +468,6 @@ main {
 
     display: flex;
     flex-direction: column;
-
-    font-family: 'Montserrat', sans-serif;
 }
 
 #faq #faq-title-wrap #faq-titles {
@@ -782,7 +779,7 @@ footer {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     #services-container {
         width: 21.5rem;
     }
@@ -792,19 +789,19 @@ footer {
     }
 
     #services-container #cards-container #ombre {
-        height: 40rem; 
+        height: 44rem; 
     }
 
     #services-container #cards-container #microblading {
-        height: 27rem;
+        height: 26rem;
     }
 
     #services-container #cards-container #combo {
-        height: 38rem; 
+        height: 40rem; 
     }
 
     #services-container #cards-container #saline{
-        height: 53rem; 
+        height: 55rem; 
     }
 
     #services-container #cards-container #correction {
@@ -812,13 +809,13 @@ footer {
     }
 
     #services-container #cards-container #touchup {
-        height: 20rem;
+        height: 19rem;
     }
 
     #services-container #cards-container #training-card {
         width: 56.625rem;
         margin-bottom: 10vh;
-        height: 110.5rem; 
+        height: 103.5rem; 
         margin-bottom: 6rem;
     }
 
@@ -927,19 +924,20 @@ footer {
     }
 
     #faq #faq-info-wrap .booking{
-        left: -2.25rem;
+        left: -1.25rem;
     }
 
     #faq #faq-info-wrap .booking #send {
-        margin-left: -2rem;
+        margin-left: 0rem;
     }
 
     #faq #faq-info-wrap .booking #venmo {
-        margin-left: -2rem;
+        margin-left: 0rem;
     }
 
     #faq #faq-info-wrap .booking #zelle {
-        margin-left: 2rem;
+        margin-left: 1.25rem;
+        font-size: 1.5rem;
     }
 }
 
