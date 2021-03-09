@@ -935,6 +935,7 @@ footer {
         justify-content: center;
         width: 18.75rem;
         margin-bottom: 10rem;
+        touch-action: none;
     }
 
     #faq #faq-title-wrap{
