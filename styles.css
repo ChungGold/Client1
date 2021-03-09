@@ -899,7 +899,7 @@ footer {
     }
 
     #faq #faq-title-wrap #faq-titles {
-        width: 18.75rem;
+        width: 28rem;
         height: 20rem;
         font-size: 2rem;
     
@@ -930,6 +930,10 @@ footer {
         justify-content: center;
         width: 18.75rem;
         margin-bottom: 10rem;
+    }
+
+    #faq #faq-title-wrap{
+        width: 18.75rem;
     }
 
     #faq #faq-title-wrap #faq-titles {
