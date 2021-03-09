@@ -929,7 +929,11 @@ footer {
     }
 }
 
-@media screen and (min-width: 301px) and (max-width: 539px) {
+@media only screen 
+and (width : 375px) 
+and (height : 635px)
+and (orientation : portrait)  
+and (-webkit-device-pixel-ratio : 3) {
     #faq {
         display: flex;
         justify-content: center;
