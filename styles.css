@@ -575,6 +575,10 @@ main {
     width: 18.75rem;
 }
 
+#contacts-box #email-form textarea {
+    width: 18.75rem;
+}
+
 #map {
     position: absolute;
     height: 37.5rem; 
@@ -895,7 +899,7 @@ footer {
     }
 
     #faq #faq-title-wrap #faq-titles {
-        width: 28rem;
+        width: 18.75rem;
         height: 20rem;
         font-size: 2rem;
     
