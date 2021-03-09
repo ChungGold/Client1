@@ -175,7 +175,7 @@ nav #nav-bar li {
     color: white;
 
     border-style: solid;
-    border-radius: 25px;
+    border-radius: 5%;
     border-color: #F7C4CD;
     box-shadow: 0px 0px 10px 10px #F7C4CD;
 
@@ -371,7 +371,7 @@ main {
     position: absolute;
     width: 15rem;
     height: 5rem;
-    border-radius: 25px;
+    border-radius: 5%;
     margin-top: 1.25rem;
 
     background-color: black;
