@@ -936,6 +936,7 @@ footer {
         width: 18.75rem;
         margin-bottom: 10rem;
         touch-action: none;
+        overflow-y: scroll;
     }
 
     #faq #faq-title-wrap{
