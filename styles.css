@@ -596,7 +596,7 @@ footer {
     position: fixed;
     bottom: 0;
     height: 7vh;
-    width: 100%;
+    width: 100vw;
     background-color: pink;
 }
 /************ SOCIAL MEDIA & COPYRIGHT ************/
@@ -929,11 +929,7 @@ footer {
     }
 }
 
-@media only screen 
-and (width : 375px) 
-and (height : 635px)
-and (orientation : portrait)  
-and (-webkit-device-pixel-ratio : 3) {
+@media screen and (min-width: 301px) and (max-width: 539px) {
     #faq {
         display: flex;
         justify-content: center;
@@ -987,6 +983,18 @@ and (-webkit-device-pixel-ratio : 3) {
     #faq #faq-info-wrap .booking #zelle {
         margin-left: 1.25rem;
         font-size: 1.5rem;
+    }
+
+    #copyright {
+        height: 7.5vh;
+        width: 23.4375rem;
+        left: calc(50% - 11.71875rem);
+        bottom: .8rem;
+    }
+
+    #copyright #socials {
+        position: absolute;
+        top: 1rem;
     }
 }
 
