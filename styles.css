@@ -484,6 +484,7 @@ main {
 
 #faq {
     height: 55rem;
+    width: 56.625rem;
 }
 
 #faq #faq-title-wrap {
@@ -867,6 +868,7 @@ footer {
         display: flex;
         justify-content: center;
         margin-bottom: 10rem;
+        width: 33.75rem;
     }
     
     #faq #faq-title-wrap #faq-titles {
@@ -896,6 +898,7 @@ footer {
         display: flex;
         justify-content: center;
         margin-bottom: 10rem;
+        width: 28rem;
     }
 
     #faq #faq-title-wrap #faq-titles {
