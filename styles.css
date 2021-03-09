@@ -176,7 +176,7 @@ nav #nav-bar li {
     color: white;
 
     border-style: solid;
-    border-radius: 5%;
+    border-radius: 25px;
     border-color: #F7C4CD;
     box-shadow: 0px 0px 10px 10px #F7C4CD;
 
@@ -493,6 +493,7 @@ main {
 #faq {
     height: 55rem;
     width: 56.625rem;
+    touch-action: none;
 }
 
 #faq #faq-title-wrap {
