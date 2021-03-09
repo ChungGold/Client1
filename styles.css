@@ -876,6 +876,7 @@ footer {
         margin-bottom: 10rem;
         width: 33.75rem;
         touch-action: pan-y;
+        padding-bottom: 10rem;
     }
 
     #faq #faq-title-wrap {
@@ -1010,7 +1011,6 @@ footer {
         margin-bottom: 10rem;
         touch-action: pan-y;
         padding-bottom: 10rem;
-        height: 75rem;
     }
 
     #faq #faq-title-wrap {
