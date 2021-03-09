@@ -665,6 +665,10 @@ footer {
         width: 20rem;
     }
 
+    #alert #titleX h3 {
+        width: 15rem;
+    }
+
     #formX {
         top: 1rem;
     }
