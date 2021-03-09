@@ -984,18 +984,6 @@ footer {
         margin-left: 1.25rem;
         font-size: 1.5rem;
     }
-
-    #copyright {
-        height: 7.5vh;
-        width: 23.4375rem;
-        left: calc(50% - 11.71875rem);
-        bottom: .8rem;
-    }
-
-    #copyright #socials {
-        position: absolute;
-        top: 1rem;
-    }
 }
 
 @media (max-width: 300px) {
