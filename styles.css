@@ -880,7 +880,7 @@ footer {
         justify-content: space-between;
     }
 
-    #faq #faq-info-wrap .faq-info{
+    #faq #faq-title-wrap #faq-info-wrap .faq-info{
         position: absolute;
         font-size: 1.25rem;
         width: 33.75rem;
@@ -912,7 +912,7 @@ footer {
     }
 
 
-    #faq #faq-info-wrap .faq-info{
+    #faq #faq-title-wrap #faq-info-wrap .faq-info{
         position: absolute;
         font-size: 1.75rem;
         width: 28rem;
@@ -927,7 +927,7 @@ footer {
     }
 }
 
-@media (min-width: 301px) and (max-width: 539px) {
+@media (max-width: 539px) {
     #faq {
         display: flex;
         justify-content: center;
@@ -950,7 +950,7 @@ footer {
     }
 
 
-    #faq #faq-info-wrap .faq-info{
+    #faq #faq-title-wrap #faq-info-wrap .faq-info{
         position: absolute;
         font-size: 1.75rem;
         width: 18rem;
