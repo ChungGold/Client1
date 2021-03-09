@@ -493,6 +493,7 @@ main {
 #faq {
     height: 55rem;
     width: 56.625rem;
+    overflow-x: hidden;
 }
 
 #faq #faq-title-wrap {
