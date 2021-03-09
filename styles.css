@@ -493,7 +493,6 @@ main {
 #faq {
     height: 55rem;
     width: 56.625rem;
-    touch-action: none;
 }
 
 #faq #faq-title-wrap {
@@ -877,7 +876,6 @@ footer {
         justify-content: center;
         margin-bottom: 10rem;
         width: 33.75rem;
-        overflow-x: hidden;
     }
     
     #faq #faq-title-wrap #faq-titles {
@@ -908,7 +906,6 @@ footer {
         justify-content: center;
         margin-bottom: 10rem;
         width: 28rem;
-        overflow-x: hidden;
     }
 
     #faq #faq-title-wrap #faq-titles {
@@ -943,7 +940,6 @@ footer {
         justify-content: center;
         width: 18.75rem;
         margin-bottom: 10rem;
-        overflow-x: hidden;
     }
 
     #faq #faq-title-wrap{
