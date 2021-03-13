@@ -646,7 +646,7 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #button-box {
         border-radius: 5%;
     }
