@@ -230,7 +230,7 @@ main {
 
 #carousel-container {
     overflow: hidden;
-    border-radius: 5%;
+    border-radius: 25px;
 
     width: 28.3125rem;
 }
@@ -369,7 +369,7 @@ main {
     position: absolute;
     width: 15rem;
     height: 5rem;
-    border-radius: 5%;
+    border-radius: 25px;
     margin-top: 1.25rem;
 
     background-color: black;
@@ -420,7 +420,7 @@ main {
     position: relative;
     width: 28.3125rem;
     height: 26.75rem; 
-    border-radius: 5%;
+    border-radius: 25px;
 }
 
 #services-container #cards-container #ombre, #services-container #cards-container #microblading {
@@ -449,12 +449,12 @@ main {
 
 #services-container #cards-container .cards img {
     opacity: 10%;
-    border-radius: 5%;
+    border-radius: 25px;
 }
 
 #services-container #cards-container .cards img:hover {
     opacity: 30%;
-    border-radius: 5%;
+    border-radius: 25px;
 }
 
 #services-container #cards-container .cards .card-text{
@@ -645,6 +645,12 @@ footer {
 } */
 
 /* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    #button-box {
+        border-radius: 5%;
+    }
+}
 
 @media (max-width: 1024px) {
     nav #nav-bar  {
