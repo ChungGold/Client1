@@ -526,7 +526,7 @@ main {
     position: absolute;
     width: 56.625rem;
     height: 34rem;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     padding-top: 4.5rem;
     font-weight: 550;
     color: gray;
@@ -897,7 +897,7 @@ footer {
 
     #faq #faq-title-wrap #faq-info-wrap .faq-info{
         position: absolute;
-        font-size: 1.25rem;
+        font-size: 1.125rem;
         width: 33.75rem;
 
         display: flex;
@@ -936,7 +936,7 @@ footer {
 
     #faq #faq-title-wrap #faq-info-wrap .faq-info{
         position: absolute;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         width: 28rem;
 
         top: 23rem;
@@ -977,7 +977,7 @@ footer {
 
     #faq #faq-title-wrap #faq-info-wrap .faq-info{
         position: absolute;
-        font-size: 1.75rem;
+        font-size: 1.25rem;
         width: 18rem;
 
         top: 23rem;
@@ -1005,7 +1005,7 @@ footer {
 
     #faq #faq-info-wrap .booking #zelle {
         margin-left: 1.25rem;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 }
 
@@ -1036,7 +1036,7 @@ footer {
 
     #faq #faq-info-wrap .faq-info{
         position: absolute;
-        font-size: 1.75rem;
+        font-size: 1.25rem;
         width: 13rem;
 
         top: 23rem;
