@@ -16,6 +16,7 @@ const book = document.querySelector('.booking').classList;
 const cancel = document.querySelector('.cancellations').classList;
 const before = document.querySelector('.beforeCare').classList;
 const after = document.querySelector('.afterCare').classList;
+const covid = document.querySelector('.covid').classList;
 
 
 // REFACTORING FUNCTIONS
@@ -44,6 +45,11 @@ function hideAfter() {
     document.querySelectorAll('h3')[4].style.color = 'grey';
 }
 
+function hideCovid() {
+    covid.add('hidden');
+    document.querySelectorAll('h3')[5].style.color = 'grey';
+}
+
 // SWITCH STATEMENT
 
 function hide(key) {
@@ -57,6 +63,7 @@ function hide(key) {
                 hideCancel();
                 hideBefore();
                 hideAfter();
+                hideCovid();
                 
             } else if (qual.contains('hidden') == false){
                 hideQual();
@@ -72,6 +79,7 @@ function hide(key) {
                 hideCancel();
                 hideBefore();
                 hideAfter();
+                hideCovid();
 
             } else if (book.contains('hidden') == false){
                 hideBook();
@@ -87,6 +95,7 @@ function hide(key) {
                 hideBook();
                 hideBefore();
                 hideAfter();
+                hideCovid();
                 
             } else if (cancel.contains('hidden') == false){
                 hideCancel()
@@ -102,6 +111,7 @@ function hide(key) {
                 hideBook();
                 hideCancel();
                 hideAfter();
+                hideCovid();
 
             } else if (before.contains('hidden') == false){
                 hideBefore();
@@ -117,9 +127,26 @@ function hide(key) {
                 hideBook();
                 hideCancel();
                 hideBefore();
+                hideCovid();
 
             } else if (after.contains('hidden') == false){
                 hideAfter();
+            }
+            break;
+
+        case 'COVID-19':
+            if (covid.contains('hidden') == true) {
+                covid.remove('hidden');
+                document.querySelectorAll('h3')[5].style.color = 'pink';
+
+                hideQual();
+                hideBook();
+                hideCancel();
+                hideBefore();
+                hideAfter();
+
+            } else if (covid.contains('hidden') == false){
+                hideCovid();
             }
     }
 }
