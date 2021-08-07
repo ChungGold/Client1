@@ -252,11 +252,9 @@ main {
     float: right;
     border-style: solid;
     border-color: white;
-    filter: grayscale(95%);
 } 
 
 .picture-box:hover {
-    filter: grayscale(0%);
     opacity: 1;    
     cursor: pointer;
 }
