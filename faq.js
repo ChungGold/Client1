@@ -12,6 +12,7 @@ for (let i = 0; i < categories.length; i++) {
 // OBJECTS
 
 const qual = document.querySelector('.qualifications').classList;
+const touchUp = document.querySelector('.touchUp').classList;
 const book = document.querySelector('.booking').classList;
 const cancel = document.querySelector('.cancellations').classList;
 const before = document.querySelector('.beforeCare').classList;
@@ -25,29 +26,34 @@ function hideQual() {
     document.querySelectorAll('h3')[0].style.color = 'grey';
 }
 
+function hideTouch() {
+    touchUp.add('hidden');
+    document.querySelectorAll('h3')[1].style.color = 'grey';
+}
+
 function hideBook() {
     book.add('hidden');
-    document.querySelectorAll('h3')[1].style.color = 'grey';
+    document.querySelectorAll('h3')[2].style.color = 'grey';
 }
 
 function hideCancel() {
     cancel.add('hidden');
-    document.querySelectorAll('h3')[2].style.color = 'grey';
+    document.querySelectorAll('h3')[3].style.color = 'grey';
 }
 
 function hideBefore() {
     before.add('hidden');
-    document.querySelectorAll('h3')[3].style.color = 'grey';
+    document.querySelectorAll('h3')[4].style.color = 'grey';
 }
 
 function hideAfter() {
     after.add('hidden');
-    document.querySelectorAll('h3')[4].style.color = 'grey';
+    document.querySelectorAll('h3')[5].style.color = 'grey';
 }
 
 function hideCovid() {
     covid.add('hidden');
-    document.querySelectorAll('h3')[5].style.color = 'grey';
+    document.querySelectorAll('h3')[6].style.color = 'grey';
 }
 
 // SWITCH STATEMENT
@@ -58,7 +64,8 @@ function hide(key) {
             if (qual.contains('hidden') == true) {
                 qual.remove('hidden');   
                 document.querySelectorAll('h3')[0].style.color = 'pink';
-
+                
+                hideTouch();
                 hideBook();
                 hideCancel();
                 hideBefore();
@@ -69,13 +76,31 @@ function hide(key) {
                 hideQual();
             }
             break;
+        
+        case 'Touch Ups':
+            if (touchUp.contains('hidden') == true) {
+                touchUp.remove('hidden');
+                document.querySelectorAll('h3')[1].style.color = 'pink';
+
+                hideQual();
+                hideBook();
+                hideCancel();
+                hideBefore();
+                hideAfter();
+                hideCovid();
+
+            } else if (book.contains('hidden') == false){
+                hideTouch();
+            }
+            break;
 
         case 'Booking':
             if (book.contains('hidden') == true) {
                 book.remove('hidden');
-                document.querySelectorAll('h3')[1].style.color = 'pink';
+                document.querySelectorAll('h3')[2].style.color = 'pink';
 
                 hideQual();
+                hideTouch();
                 hideCancel();
                 hideBefore();
                 hideAfter();
@@ -89,9 +114,10 @@ function hide(key) {
         case 'Cancellations':
             if (cancel.contains('hidden') == true) {
                 cancel.remove('hidden');
-                document.querySelectorAll('h3')[2].style.color = 'pink';
+                document.querySelectorAll('h3')[3].style.color = 'pink';
 
                 hideQual();
+                hideTouch();
                 hideBook();
                 hideBefore();
                 hideAfter();
@@ -105,9 +131,10 @@ function hide(key) {
         case 'Before Care':
             if (before.contains('hidden') == true) {
                 before.remove('hidden');
-                document.querySelectorAll('h3')[3].style.color = 'pink';
+                document.querySelectorAll('h3')[4].style.color = 'pink';
 
                 hideQual();
+                hideTouch();
                 hideBook();
                 hideCancel();
                 hideAfter();
@@ -121,9 +148,10 @@ function hide(key) {
         case 'After Care':
             if (after.contains('hidden') == true) {
                 after.remove('hidden');
-                document.querySelectorAll('h3')[4].style.color = 'pink';
+                document.querySelectorAll('h3')[5].style.color = 'pink';
 
                 hideQual();
+                hideTouch();
                 hideBook();
                 hideCancel();
                 hideBefore();
@@ -137,9 +165,10 @@ function hide(key) {
         case 'COVID-19':
             if (covid.contains('hidden') == true) {
                 covid.remove('hidden');
-                document.querySelectorAll('h3')[5].style.color = 'pink';
+                document.querySelectorAll('h3')[6].style.color = 'pink';
 
                 hideQual();
+                hideTouch();
                 hideBook();
                 hideCancel();
                 hideBefore();
