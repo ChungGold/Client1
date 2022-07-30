@@ -430,7 +430,7 @@ main {
 }
 
 #services-container #cards-container #correction, #services-container #cards-container #touchup {
-    height: 17.75rem; 
+    height: 25.75rem; 
 }
 
 
@@ -442,7 +442,7 @@ main {
 #services-container #cards-container #training-card {
     width: 56.625rem;
     margin-bottom: 10vh;
-    height: 42.5rem; 
+    height: 48.5rem; 
 }
 
 #services-container #cards-container .cards img {
