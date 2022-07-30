@@ -810,7 +810,30 @@ footer {
 
     #services-container #cards-container .cards {
         width: 22.875rem;
-        height: 60rem; 
+    }
+    
+    #services-container #cards-container #ombre {
+        height: 50rem; 
+    }
+
+    #services-container #cards-container #microblading {
+        height: 33.5rem;
+    }
+
+    #services-container #cards-container #combo {
+        height: 46rem; 
+    }
+
+    #services-container #cards-container #saline{
+        height: 62rem; 
+    }
+
+    #services-container #cards-container #correction {
+        height: 36rem;
+    }
+
+    #services-container #cards-container #touchup {
+        height: 38rem;
     }
 
     #services-container #cards-container #training-card {
