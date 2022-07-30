@@ -810,13 +810,13 @@ footer {
 
     #services-container #cards-container .cards {
         width: 22.875rem;
-        height: 45rem; 
+        height: 52rem; 
     }
 
     #services-container #cards-container #training-card {
         width: 56.625rem;
         margin-bottom: 10vh;
-        height: 60.5rem; 
+        height: 64rem; 
     }
 
     #services-container #cards-container .cards p{
@@ -854,12 +854,12 @@ footer {
     }
 
     #services-container #cards-container #touchup {
-        height: 21rem;
+        height: 36rem;
     }
 
     #services-container #cards-container #training-card {
         width: 56.625rem;
-        height: 116.5rem; 
+        height: 120.5rem; 
         margin-bottom: 6rem;
     }
 
