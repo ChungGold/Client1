@@ -856,16 +856,28 @@ footer {
         width: 21.5rem;
     }
 
-    #services-container #cards-container #ombre, #services-container #cards-container #microblading {
-        height: 45rem; 
+    #services-container #cards-container #ombre {
+        height: 50rem; 
     }
 
-    #services-container #cards-container #combo, #services-container #cards-container #saline {
-        height: 52rem; 
+    #services-container #cards-container #microblading {
+        height: 33.5rem;
     }
 
-    #services-container #cards-container #correction, #services-container #cards-container #touchup {
+    #services-container #cards-container #combo {
+        height: 46rem; 
+    }
+
+    #services-container #cards-container #saline{
+        height: 62rem; 
+    }
+
+    #services-container #cards-container #correction {
         height: 36rem;
+    }
+
+    #services-container #cards-container #touchup {
+        height: 38rem;
     }
 
     #services-container #cards-container #training-card {
@@ -1128,5 +1140,6 @@ footer {
         left: 0;
     }
 }
+
 
 
