@@ -812,7 +812,7 @@ footer {
         width: 22.875rem;
     }
     
-    #services-container #cards-container #ombre, #services-container #cards-container #microblading {
+    #services-container #cards-container #ombre, #services-container #cards-container #microblading, #services-container #cards-container #scalp {
         height: 45rem; 
     }
     
@@ -844,7 +844,7 @@ footer {
         width: 21.5rem;
     }
 
-    #services-container #cards-container #ombre {
+    #services-container #cards-container #ombre, #services-container #cards-container #scalp {
         height: 50rem; 
     }
 
